@@ -16,8 +16,9 @@ LANDING PAGE
 */
 #Landing__page {
   min-height: 100vh;
+  background-color: rgb(245, 245, 245);
 }
- section {
+  section {
   background-color: rgb(245, 245, 245);
 } 
 /*
@@ -27,8 +28,8 @@ NAVIGATION BAR
 */
 
 #personal__logo {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   filter: invert(1);
 }
 nav {
@@ -48,7 +49,8 @@ nav {
   text-decoration: none;
   margin: 0 12px;
   color: #242422;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 /* 
@@ -70,13 +72,14 @@ header {
 }
 .header__content p {
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
   font-weight: 700;
+  font-size: 25px ;
   line-height: 2;
 }
 
 .header__content h1 {
-  font-size: 60px;
+  font-size: 100px;
 }
 .header__socials {
   margin-top: 20px;
@@ -117,8 +120,8 @@ header {
   cursor: pointer;
 }
 .scroll {
-  position: relative;
-  bottom: px;
+  position: absolute;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -152,5 +155,8 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
-  
+
+}
+.hhh{
+  height: 500px;
 }
